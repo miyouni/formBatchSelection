@@ -1,0 +1,29 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+	.bulk-table{width:100%}
+    .f5 {background: #f5f5f5;}
+    .bulk-order-table table th, .bulk-order-table table td {height: 40px;border: 1px solid #ccc;text-align: center;cursor: cell;}
+    .bulk-table tr{line-height: 30px;}
+    .bulk-order-table .table_111 td:hover{background-color:#ebf3fe;/* ebebeb */}
+    .bulk-order-table .table_111 td.desa:hover{background-color:#ccc;/* ebebeb */}
+    .total-div{position: fixed;bottom: 0;left: 0;width: 100%;background:#fff}
+    .btn-ww{margin:11px 0 11px 20px}
+    .grid_info{overflow: hidden;padding: 15px 20px;}
+    .grid_info .img{float:left;width:110px;height:110px;background:#f5f5f5}
+    .grid_info .img img{display:block;width:100%;height:100%;}
+    .grid_info .wrap{padding: 0 110px;vertical-align: middle;height:110px; box-sizing: border-box;-webkit-box-sizing: border-box;}
+    .grid_info .wrap p{padding:6px 10px}
+    .grid_info .wrap .name{color:#666;font-size:16px;font-weight: 600;}
+    .grid_info .wrap .price{color:#666;font-size:14px;}
+    .text_inp { -moz-appearance:textfield; } 
+    .text_inp::-webkit-inner-spin-button, .text_inp::-webkit-outer-spin-button { -webkit-appearance: none;  margin: 0; } 
+    .desa{background:#ccc}
+    .biaotou{position:relative;height:40px;width:100%;background:url(http://base.jing-yun.cn/statics/backend/images/gg.jpg) no-repeat center;background-size:100% 40px;font-size:12px;color:#000;line-height:1;}
+    .biaotou .rtop{position:absolute;right:5px;top:5px;}
+    .biaotou .lbom{position:absolute;left:5px;bottom:5px;}
